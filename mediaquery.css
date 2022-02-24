@@ -1,0 +1,135 @@
+/* Small devices (landscape phones, 480px and up) */
+@media (max-width: 480px) {
+  body {
+    background-color: white;
+  }
+  .navbar-default {
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    border-radius: 0;
+  }
+
+  /* logo */
+  .navbar-default .navbar-brand {
+    color: #ffff;
+  }
+
+  /* menu */
+  .navbar-default .navbar-nav {
+    color: #777;
+  }
+
+  /* dropdown-menu divider  e testo*/
+
+  .dropdown-menu .divider {
+    height: 1px;
+    margin: 9px auto;
+    overflow: hidden;
+    background-color: yellow;
+    width: 75%;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: green;
+    margin-left: 5.5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: orange;
+  }
+  .navbar-default {
+    background-color: fuchsia;
+    border-color: fuchsia;
+    border-radius: 0;
+  }
+
+  /* logo */
+  .navbar-default .navbar-brand {
+    color: #ffff;
+  }
+
+  /* menu */
+  .navbar-default .navbar-nav {
+    color: #777;
+  }
+
+  /* dropdown-menu divider e testo */
+  .dropdown-menu .divider {
+    height: 1px;
+    margin: 9px auto;
+    overflow: hidden;
+    background-color: green;
+    width: 50%;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: green;
+    margin-left: 21%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: green;
+  }
+  .navbar-default {
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+  }
+
+  /* logo */
+  .navbar-default .navbar-brand {
+    color: #ffff;
+  }
+
+  /* menu */
+  .navbar-default .navbar-nav {
+    color: #777;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-color: yellow;
+  }
+  .navbar-default {
+    background-color: purple;
+    border-color: purple;
+    border-radius: 0;
+  }
+  /* logo */
+  .navbar-default .navbar-brand {
+    color: #ffff;
+  }
+
+  /* menu */
+  .navbar-default .navbar-nav {
+    color: #777;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 4000px) {
+  body {
+    background-color: violet;
+  }
+  .navbar-default {
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    border-radius: 0;
+  }
+
+  /* logo */
+  .navbar-default .navbar-brand {
+    color: #ffff;
+  }
+
+  /* menu */
+  .navbar-default .navbar-nav {
+    color: #777;
+  }
+}

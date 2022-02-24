@@ -1,0 +1,121 @@
+body {
+  background-color: #ffff;
+}
+
+.navbar-default {
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+  border-radius: 0;
+}
+
+/*logo */
+.navbar-default .navbar-brand {
+  color: #ffff;
+}
+.navbar-default .navbar-brand:hover {
+  color: yellow;
+}
+
+.logo-1 {
+  max-width: 30px;
+  max-height: 30px;
+  width: 30px;
+  height: 30px;
+  margin-top: -5px;
+}
+
+h6 {
+  display: inline;
+  margin-left: 5px;
+}
+
+/* end logo */
+
+.navbar-default .navbar-nav {
+  color: #777;
+}
+
+/* dropdown menu */
+
+a {
+  color: white;
+}
+
+/* Start Carousel */
+
+.carousel {
+  margin-top: 50px;
+}
+
+.glyphicon-chevron-right,
+.glyphicon-chevron-left {
+  color: yellow;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.carousel-indicators .active {
+  margin: 0;
+  width: 30px;
+  height: 12px;
+  background-color: yellow;
+}
+
+/* end carousel */
+
+/* dropdown button e navbar colors*/
+.navbar-default .navbar-toggle {
+  border: 2px solid green;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: yellow;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: green;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: green;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: lightyellow;
+  color: green;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: lightcoral;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: green;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: lightcoral;
+}
